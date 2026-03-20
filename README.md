@@ -2,7 +2,7 @@ Stealth Calculator
 
 A Casio calculator with a Raspberry Pi put inside!
 
-Features that are currently planned to be coded in as soon as I get the parts:
+Features that are currently planned as soon as I get the parts:
 
 -PDF and Image viewer.
 
