@@ -1,0 +1,5 @@
+pyserial
+google-generativeai
+Pillow
+pypdfium2
+python-dotenv
