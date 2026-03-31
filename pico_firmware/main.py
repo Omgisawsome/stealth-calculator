@@ -2,10 +2,14 @@ import machine
 import time
 
 ROWS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-COLS = [12, 13, 14, 15, 16, 17]
 
-# UART moved to GP20/GP21 to avoid conflict with the Matrix scanning pins
+
+COLS = [12, 13, 14, 15, 26, 27]
+
+
 uart = machine.UART(1, baudrate=9600, tx=machine.Pin(20), rx=machine.Pin(21))
+
+# KEYBOARD MAP
 
 KEY_MAP = {
     "R1C1": "SHIFT", "R1C2": "ALPHA", "R1C3": "UP", "R1C5": "MODE", "R1C6": "ON",
@@ -20,14 +24,16 @@ KEY_MAP = {
     "R12C1": "0", "R12C2": "DOT", "R12C3": "EXP", "R12C4": "ANS", "R12C5": "EQUAL"
 }
 
+
 row_pins = [machine.Pin(p, machine.Pin.OUT) for p in ROWS]
 col_pins = [machine.Pin(p, machine.Pin.IN, machine.Pin.PULL_DOWN) for p in COLS]
 
 def scan_matrix():
     for r_idx, r_pin in enumerate(row_pins):
-        r_pin.value(1)
+        r_pin.value(1)  
         for c_idx, c_pin in enumerate(col_pins):
             if c_pin.value() == 1:
+
                 code = f"R{r_idx+1}C{c_idx+1}"
                 label = KEY_MAP.get(code, "UNUSED")
                 
@@ -38,7 +44,8 @@ def scan_matrix():
                     time.sleep(0.05)
         r_pin.value(0)
 
-print("Stealth Calc Matrix Scanner Active...")
+
+print("Stealth Calc Matrix Engine: ONLINE")
 while True:
     scan_matrix()
     time.sleep(0.01)
