@@ -15,7 +15,7 @@ Just order all the parts on my BOM, and also order the PCB files. Unscrew open t
 ![Remove Plastic Pieces](image-2.png)
 In the calculator found in the BOM (these photos are from the web), the circled screws are actually hard pieces of plastic you have to snap. Aggresively pry the board out without breaking anything below (snap the board idc).
 
-![Yank out all the guts](INSTRUCTION_STEPS_IMAGES\image-3.png)
+![Yank out all the guts](image-3.png)
 
 I really don't care if you break the PCB or screen or anything, just make sure to save this conductive rubber pad,:
 ![Pad](image-4.png)
