@@ -9,25 +9,25 @@ The device functions as a standard calculator, but by entering a special code (n
 
 How do you build this yourself?
 Just order all the parts on my BOM, and also order the PCB files. Unscrew open the calculator, and you will be able to lift off the board and attached screen.
-![Screws](image.png)
+![Screws](buildprocessimages\image.png)
 ![Open Back Cover](image-1.png)
 
-![Remove Plastic Pieces](image-2.png)
+![Remove Plastic Pieces](buildprocessimages\image-2.png)
 In the calculator found in the BOM (these photos are from the web), the circled screws are actually hard pieces of plastic you have to snap. Aggresively pry the board out without breaking anything below (snap the board idc).
 
-![Yank out all the guts](image-3.png)
+![Yank out all the guts](buildprocessimages\image-3.png)
 
 I really don't care if you break the PCB or screen or anything, just make sure to save this conductive rubber pad,:
-![Pad](image-4.png)
+![Pad](buildprocessimages\image-4.png)
 
 Oh also make sure the buttons don't fall out that will irritate you (I did this myself it's so annoying).
 All that should be saved is the solar panel from the top (to glue back in place), the buttons, the pad, and the top shell half and bottom shell half.
 
 Your parts should look something like this (don't lose the screws like I did)
-![Parts!](image-5.png)
+![Parts!](buildprocessimages\image-5.png)
 
 In the back of the calculator there's plastic parts, you will need to use a smal rotating saw or a mechanical sander to hollow out the shell, make sure not to touch other parts of the back shell and use this reference image:
-![Back panel hollowed out!](image-6.png)
+![Back panel hollowed out!](buildprocessimages\image-6.png)
 
 I haven't done these steps yet but when I get the parts it should go something like this:
 SOFTWARE:
