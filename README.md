@@ -67,23 +67,36 @@ FINAL PICTURES:
 {KICAD SCHEMATIC}
 
 PCB DESIGN:
+
 ![3D PCB VIEW](PCB/PCBSCREENSHOTS/pcb3d.png)
 
+
 PCB ROWS AND COLUMNS:
+
 ![PCB ROWS AND COLUMNS](PCB/PCBSCREENSHOTS/image.png)
 
+
 Matching Calculator Rows and Columns:
+
 ![Matching Calculator Rows and Columns](PCB/PCBSCREENSHOTS/image-1.png)
 
+
 IMPORTANT!!! HERE ARE THE COLUMN AND ROW LABELS!!!!
+
 ![PAD LABELS](PCB/PCBSCREENSHOTS/image-4.png)
+
 Here's the column (C) and row (R) labels, to follow the schematic diagram when wiring to the Pico.
 
+
 PCB FRONT VIEW
+
 ![FRONTPCB](PCB/PCBSCREENSHOTS/image-3.png)
 
+
 PCB BACK VIEW
+
 ![BACKPCB](PCB/PCBSCREENSHOTS/image-2.png)
+
 
 Features that are currently planned as soon as I get the parts:
 -PDF and Image viewer.
