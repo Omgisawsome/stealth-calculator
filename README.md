@@ -64,7 +64,9 @@ I just chose to make this because it turns out it's REALLY hard to do this witho
 
 FINAL PICTURES:
 
-{KICAD SCHEMATIC}
+Here are two copies of my schematic:
+![SchematicTransparent](Schematic/transparent%20background%20schematic.png)
+![SchematicWhiteBackground](Schematic/white%20background%20schematic.png)
 
 PCB DESIGN:
 
