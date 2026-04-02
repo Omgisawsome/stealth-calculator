@@ -10,7 +10,7 @@ The device functions as a standard calculator, but by entering a special code (n
 How do you build this yourself?
 Just order all the parts on my BOM, and also order the PCB files. Unscrew open the calculator, and you will be able to lift off the board and attached screen.
 ![Screws](buildprocessimages/image.png)
-![Open Back Cover](image-1.png)
+![Open Back Cover](buildprocessimages/image-1.png)
 
 ![Remove Plastic Pieces](buildprocessimages/image-2.png)
 In the calculator found in the BOM (these photos are from the web), the circled screws are actually hard pieces of plastic you have to snap. Aggresively pry the board out without breaking anything below (snap the board idc).
@@ -44,16 +44,25 @@ Install screen drivers: Follow these steps: https://www.lcdwiki.com/2.4inch_RPi_
 Why did I make this?
 I just chose to make this because it turns out it's REALLY hard to do this without having extensive PCB design knowledge. To cram that many parts inside is insane when you're not making an all in one PCB. It's various components that you need to carefully account for in terms of space.
 
-FINAL PICTURES SO FAR:
+FINAL PICTURES:
 
 {KICAD SCHEMATIC}
 
-
 {PCB DESIGN}
+![PCB ROWS AND COLUMNS](PCB\PCBSCREENSHOTS/image.png)
+![Matching Calculator Rows and Columns](PCB\PCBSCREENSHOTS/image-1.png)
 
+IMPORTANT!!! HERE ARE THE COLUMN AND ROW LABELS!!!!
+![PAD LABELS](PCB\PCBSCREENSHOTS/image-4.png)
+Here's the column (C) and row (R) labels, to follow the schematic diagram when wiring to the Pico.
+
+PCB FRONT VIEW
+![FRONTPCB](PCB\PCBSCREENSHOTS/image-3.png)
+
+PCB BACK VIEW
+![BACKPCB](PCB\PCBSCREENSHOTS/image-2.png)
 
 Features that are currently planned as soon as I get the parts:
-
 -PDF and Image viewer.
 -RetroPie abilities for Games.
 -Camera with a button that automatically takes a picture and sends the request to Gemini saying answer this, then the response is sent back and display on the screen.
@@ -61,4 +70,4 @@ Features that are currently planned as soon as I get the parts:
 Tell me more features to add!!!!
 As of March 31, 2026 the firmware should be useable, but will be modified with features once the parts are obtained!!!
 
-Thanks for reading!
+Thanks for reading, stay tuned for the build!
