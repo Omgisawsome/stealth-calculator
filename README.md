@@ -106,6 +106,6 @@ Features that are currently planned as soon as I get the parts:
 -Camera with a button that automatically takes a picture and sends the request to Gemini saying answer this, then the response is sent back and display on the screen.
 
 Tell me more features to add!!!!
-As of March 31, 2026 the firmware should be useable, but will be modified with features once the parts are obtained!!!
+As of March 31, 2026 the firmware should be useable, but will be modified with features once the parts are obtained!!! I may need to adjust the matrix scanning slightly but until then, it's good!
 
 Thanks for reading, stay tuned for the build!
