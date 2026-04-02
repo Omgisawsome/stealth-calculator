@@ -1,5 +1,8 @@
-Stealth Calculator
+**Stealth Calculator
+**
 A Casio calculator with a Raspberry Pi put inside!
+
+IMPORTANT NOTE FOR REVIEWERS, I ACCIDENTALLY PUT THIS AS TIER 2 WHEN IT'S A TIER 3 PROJECT THAT HAS A TOTAL COST OF $94.48 USD!
 
 What is the project?
 My stealth calculator is a calculator (Casio FX-991ESPLUS2), with the insides completely gutted out. Inside, it holds a Raspberry Pi Zero 2W as the main brain and a Raspberry Pi Pico 2 as a dedicated input controller. It utilizes matrix scanning to scan the custom PCB's rows and columns waiting for an input, and has the buttons mapped out. It has a 2.4 colour OLED touchscreen for easy usage and an integrated camera that's low profile, which allows the calculator to view the world, allowing for more functionality later on if I want to add other features.
